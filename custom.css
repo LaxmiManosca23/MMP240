@@ -1,0 +1,221 @@
+.row h3 {
+    color: darkgrey;
+    font-family: myThirdFont;
+}
+
+.header .brand:hover{
+    opacity: 0.6;
+}
+
+.header h1 {
+    color: black;
+    font-family: myFirstFont;
+    font-size: 1.4em;
+    padding-bottom: 30px;
+    margin-top: -.1px;
+    margin-left: 55.5px;
+    letter-spacing 10px;
+    word-spacing: 10px;
+}
+
+.header a img{
+    padding-top: 50px;
+    margin-left: 5px;
+}
+
+.nav .menu {
+    opacity: 0;
+    transition-duration: .5s;
+}
+
+.nav .menu:hover {
+    opacity: .8;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+
+.header a h1:hover {
+    text-decoration: none;
+}
+
+.menu a {
+    color: white;
+    font-family: myFirstFont;
+    font-size: 2em;
+}
+
+.menu a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.menu {
+    background: black;
+    width: 200px;
+    height: 100vh;
+    /*100% of the height of the viewport*/
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    opacity: 0.8;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+.container .nav .menu .link{
+    margin-bottom: 30px;
+}
+
+.container .nav .fa-navicon {
+    color: grey;
+    padding-top: 80px;
+}
+
+.container footer .fa-instagram{
+    color: grey;
+}
+
+.container footer .fa-instagram:hover{
+    color: black;
+}
+
+.container footer .fa-twitter{
+    color: grey;
+}
+
+.container footer .fa-twitter:hover{
+    color: black;
+}
+
+.container footer .fa-wordpress{
+    color: grey;
+}
+
+.container footer .fa-wordpress:hover{
+    color: black;
+}
+
+.container footer .fa-linkedin{
+    color: grey;
+}
+
+.container footer .fa-linkedin:hover{
+    color: black;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(master_of_break.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(PWInfinity.ttf);
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(CaviarDreams.ttf);
+}
+
+/***********************************************************/
+/**********************index.html****************************/
+/***********************************************************/
+
+#index footer{
+    margin-bottom: 0px;
+}
+
+#index img{
+    margin-bottom: 30px;
+}
+
+#index .brand img{
+    margin-bottom: 0px;
+}
+
+#index hr{
+    margin-top: -0.1px;
+}
+
+/***********************************************************/
+/**********************Work.html****************************/
+/***********************************************************/
+
+#work #myCarousel{
+    padding: 15px;
+}
+
+#work #myCarousel img {
+    width: 100vw;
+}
+
+#work #portfolio h5{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+/*#work #portfolio>div{
+    padding: 15px;
+}*/
+
+#work .bg-orange{
+    background-color: #ffbe86;
+    padding: 30px;
+    margin: 40px 15px;
+}
+
+#work .bg-blue{
+    background-color: #72d2e3;
+    padding: 30px;
+    margin: 40px 15px;
+}
+
+#work .bg-pink{
+    background-color: #c1a2b3;
+    padding: 30px;
+    margin: 40px 15px;
+}
+#work .bg-grey{
+    background-color: #d3d3d3;
+    padding: 30px;
+    margin: 40px 15px;
+}
+
+#work .slider .overlay{
+    background: url(Img/LM-Overlay.png) no-repeat;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+}
+
+/***********************************************************/
+/**********************about.html****************************/
+/***********************************************************/
+
+#about .aboutme{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#about .info{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#about .soc{
+    
+}
+
+/***********************************************************/
+/**********************contact.html****************************/
+/***********************************************************/
+
+#contact .container .text{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
