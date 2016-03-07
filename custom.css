@@ -220,8 +220,8 @@
     margin-left: 20px;
 }
 
-#about .soc{
-    
+#about .info h2{
+    font-family: myThirdFont;
 }
 
 /***********************************************************/
@@ -234,6 +234,16 @@
     margin-bottom: 50px;
     margin-top: 20px;
 }
+
+#contact .text h2{
+    font-family: myThirdFont;
+}
+#contact .form label{
+    font-family: myThirdFont;
+    font-size: 1.5em;
+}
+
+
 
 /*change the padding design on mobile sites*/
 /* Small devices (tablets, 768px and below) */
