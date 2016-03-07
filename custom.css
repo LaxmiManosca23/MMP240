@@ -150,36 +150,51 @@
     width: 100vw;
 }
 
-#work #portfolio h5{
-    padding-bottom: 5px;
-    padding-left: 5px;
+#work #portfolio img:hover{
+    filter: blur(5px) hue-rotate(330deg)opacity(0.6);
+    -webkit-filter: blur(5px) hue-rotate(330deg) opacity(0.6);
 }
 
-/*#work #portfolio>div{
-    padding: 15px;
-}*/
+#work #portfolio img{
+    transition: 1.0s;
+}
+
+#work .hide-title>h5{
+    opacity: 0;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    color: black;
+    font-size: 1.3em;
+    font-family: myThirdFont;
+    z-index: 10;
+}
 
 #work .bg-orange{
     background-color: #ffbe86;
     padding: 30px;
     margin: 40px 15px;
+    position: relative;
 }
 
 #work .bg-blue{
     background-color: #72d2e3;
     padding: 30px;
     margin: 40px 15px;
+    position: relative;
 }
 
 #work .bg-pink{
     background-color: #c1a2b3;
     padding: 30px;
     margin: 40px 15px;
+    position: relative;
 }
 #work .bg-grey{
     background-color: #d3d3d3;
     padding: 30px;
     margin: 40px 15px;
+    position: relative;
 }
 
 #work .slider .overlay{
@@ -219,3 +234,50 @@
     margin-bottom: 50px;
     margin-top: 20px;
 }
+
+/*change the padding design on mobile sites*/
+/* Small devices (tablets, 768px and below) */
+@media (max-width: 768px) { 
+    div{
+      padding: 10px 40px;
+    }
+    .header .brand{
+        padding: 0px 0px;;
+        margin: 0px;
+    }
+    .brand h1{
+        padding-top: 6px;
+        font-size: 1.4em;
+    }
+    .nav .burgernav .fa-navicon:hover{
+        color: black;
+    }
+    
+    #about div{
+        padding: 0px 10px;
+    }
+    #about .info{
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -5px;
+    }
+}
+
+/* Medium devices (desktops, 992px and below) */
+@media (max-width: 992px) { 
+    .nav .burgernav .fa-navicon:hover{
+        color: black;
+    }
+    #about .info{
+        text-align: center;
+    }
+}
+
+/* Large devices (large desktops, 1200px and below) */
+@media (max-width: 1200px) { 
+    .nav .burgernav .fa-navicon:hover{
+        color: none;
+    }
+}
+
+
